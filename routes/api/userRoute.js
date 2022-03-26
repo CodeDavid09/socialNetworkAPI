@@ -8,7 +8,7 @@ const {
     deleteUser,
     addFriend,
     deleteFriend
-} = require('../../controllers/userController');
+  } = require('../../controllers/userController');
 
 // -- Directs to: specific file route then GET/POST/DELETE based on function parameters
 router.route('/').get(getAllUser).post(createUser);
